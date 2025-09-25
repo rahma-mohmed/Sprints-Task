@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>FreshBite - Premium Food & Beverage Store</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+     <body>
+          <header>
+               <div class="nav-container">
+                    <a href="#" class="logo">
+                         <img src="images/logo.png" alt="FreshBite Logo" class="logo-img" />
+                         FreshBite
+                    </a>
+                    <nav id="nav">
+                         <ul>
+                         <li><a href="index.html" class="nav-link active">Home</a></li>
+                         <li><a href="products.html" class="nav-link">Products</a></li>
+                         <li><a href="about.html" class="nav-link">About Us</a></li>
+                         <li><a href="contact.html" class="nav-link">Contact</a></li>
+                         </ul>
+                    </nav>
+                    <button class="mobile-menu-toggle" id="mobile-toggle">
+                         <i class="fas fa-bars"></i>
+                    </button>
+               </div>
+          </header>
+
+
+          <div id="contact-page" class="page-content">
+               <div class="page-header">
+                    <h1>Contact Us</h1>
+                    <div class="breadcrumb">
+                         <a href="#" data-page="home">Home</a> / Contact
+                    </div>
+               </div>
+
+               <div class="contact-section">
+                    <div class="section-title">
+                         <h2>Get in Touch</h2>
+                         <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+                    </div>
+
+                    <form class="contact-form" id="contact-form">
+                         <div class="form-group">
+                         <label for="name">Full Name *</label>
+                         <input type="text" id="name" name="name" required>
+                         </div>
+                         
+                         <div class="form-group">
+                         <label for="email">Email Address *</label>
+                         <input type="email" id="email" name="email" required>
+                         </div>
+                         
+                         <div class="form-group">
+                         <label for="phone">Phone Number</label>
+                         <input type="tel" id="phone" name="phone">
+                         </div>
+                         
+                         <div class="form-group">
+                         <label for="subject">Subject *</label>
+                         <input type="text" id="subject" name="subject" required>
+                         </div>
+                         
+                         <div class="form-group">
+                         <label for="message">Message *</label>
+                         <textarea id="message" name="message" placeholder="Tell us how we can help you..." required></textarea>
+                         </div>
+                         
+                         <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+               </div>
+
+               <main>
+                    <div class="features">
+                         <div class="section-title">
+                         <h2>Visit Our Store</h2>
+                         <p>Come and experience our fresh products in person</p>
+                         </div>
+                         <div class="features-grid">
+                         <div class="feature-item">
+                              <div class="feature-icon">
+                                   <i class="fas fa-map-marker-alt"></i>
+                              </div>
+                              <h3>Address</h3>
+                              <p>123 Fresh Street<br>Food District, City 12345<br>United States</p>
+                         </div>
+                         <div class="feature-item">
+                              <div class="feature-icon">
+                                   <i class="fas fa-phone"></i>
+                              </div>
+                              <h3>Phone</h3>
+                              <p>+1 (555) 123-4567<br>Mon-Fri: 8AM-8PM<br>Sat-Sun: 9AM-6PM</p>
+                         </div>
+                         <div class="feature-item">
+                              <div class="feature-icon">
+                                   <i class="fas fa-envelope"></i>
+                              </div>
+                              <h3>Email</h3>
+                              <p>info@freshbite.com<br>support@freshbite.com<br>orders@freshbite.com</p>
+                         </div>
+                         <div class="feature-item">
+                              <div class="feature-icon">
+                                   <i class="fas fa-clock"></i>
+                              </div>
+                              <h3>Hours</h3>
+                              <p>Monday - Friday: 8AM - 8PM<br>Saturday: 9AM - 6PM<br>Sunday: 10AM - 4PM</p>
+                         </div>
+                         </div>
+                    </div>
+               </main>
+          </div>
+
+          <footer>
+               <div class="footer-content">
+                    <div class="footer-section">
+                         <h3>FreshBite</h3>
+                         <p>Your trusted partner for fresh, quality food and beverages. We're committed to bringing you the best culinary experience with every order.</p>
+                         <div class="social-links">
+                         <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                         <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                         <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                         <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                         </div>
+                    </div>
+                    
+                    <div class="footer-section">
+                         <h3>Quick Links</h3>
+                         <a href="index.html">Home</a>
+                         <a href="products.html">Products</a>
+                         <a href="about.html">About Us</a>
+                         <a href="contact.html">Contact</a>
+                         <a href="#">Privacy Policy</a>
+                         <a href="#">Terms of Service</a>
+                    </div>
+                    
+                    <div class="footer-section">
+                         <h3>Categories</h3>
+                         <a href="#">Main Courses</a>
+                         <a href="#">Beverages</a>
+                         <a href="#">Salads</a>
+                         <a href="#">Desserts</a>
+                         <a href="#">Organic Products</a>
+                    </div>
+                    
+                    <div class="footer-section">
+                         <h3>Contact Info</h3>
+                         <p><i class="fas fa-map-marker-alt"></i> 123 Damietta, Egypt</p>
+                         <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                         <p><i class="fas fa-envelope"></i> info@freshbite.com</p>
+                         <p><i class="fas fa-clock"></i> Mon-Fri: 8AM-8PM</p>
+                    </div>
+               </div>
+               
+               <div class="footer-bottom">
+                    <p>&copy; 2025 FreshBite. All rights reserved. </p>
+               </div>
+          </footer>
+          <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+          <script src="script.js"></script>   
+     </body>
+</html>
