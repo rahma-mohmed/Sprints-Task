@@ -1,4 +1,5 @@
 # FreshBite - Premium Food & Beverage Store
+https://freshbite-corner.netlify.app/
 
 ## Overview
 FreshBite is a responsive, modern web application showcasing a premium food and beverage store. Users can browse products, view categories, and interact with a clean, user-friendly interface built using **HTML**, **CSS**, and **JavaScript**.
